@@ -1,6 +1,6 @@
 #Ejercicio 1 
 
-n = int(input("Introduce un numero entero positivo:   "))
+n = int(input("Introduce un numero entero positivo para el triangulo:   "))
 
 for i in range(n):
     for j in range(i+1):
@@ -12,7 +12,7 @@ for i in range(n):
 
 #Ejercicio 2
 
-n = int(input("Ingrese un numero positivo: "))
+n = int(input("Ingrese un numero entero positivo: "))
 
 num = n
 for i in range(1,num+1):
@@ -24,7 +24,7 @@ for i in range(1,num+1):
 
 #Ejercicio 3
 
-n = int(input("Introduce un numero entero positivo mayar a 2: "))
+n = int(input("Introduce un numero entero positivo mayor a 2: "))
 i = 2
 while n % i != 0:
     i +=1
